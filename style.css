@@ -1,0 +1,126 @@
+       body {
+          font-family: Arial, sans-serif;
+          background-color: #f0f0f0;
+      }
+      
+      .container {
+          max-width: 600px;
+          margin: 40px auto;
+          padding: 20px;
+          background-color: #fff;
+          border: 1px solid #ddd;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .head {
+          text-align: center;
+      }
+      
+      .password-container {
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+      }
+      
+      .password {
+          width: 100%;
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #ccc;
+      }
+      
+      .copy-btn {
+          margin-left: 10px;
+          padding: 10px;
+          font-size: 16px;
+          border: none;
+          background-color: #4CAF50;
+          color: #fff;
+          cursor: pointer;
+      }
+      
+      .copy-btn:hover {
+          background-color: #3e8e41;
+      }
+      
+      .options {
+          margin-bottom: 20px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      
+      .checkbox-column {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-right: 20px;
+      }
+      
+      .input {
+          margin-bottom: 10px;
+      }
+      
+      .generate-btn {
+          padding: 10px;
+          font-size: 16px;
+          border: none;
+          background-color: #4CAF50;
+          color: #fff;
+          cursor: pointer;
+          width: 100%;
+          margin-top: 20px;
+      }
+      
+      .generate-btn:hover {
+          background-color: #3e8e41;
+      }
+      
+      .description {
+          font-size: 14px;
+          color: #666;
+          margin-bottom: 10px;
+      }
+      
+        /* Additional styles */
+        .description {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .additional-info {
+            margin-top: 20px;
+        }
+        
+        .additional-info h2 {
+            margin-top: 0;
+        }
+        
+        .responsive-image {
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        
+        @media (max-width: 768px) {
+            /* ... existing media queries ... */
+          .container {
+              margin: 20px auto;
+          }
+          .options {
+              flex-direction: column;
+          }
+          .checkbox-column {
+              margin-right: 0;
+              margin-bottom: 20px;
+          }            
+            .additional-info {
+                margin-top: 10px;
+            }
+        }
+        #importance{
+          font-size: 14px;
+          color: #666;
+          margin-bottom: 10px;          
+        }

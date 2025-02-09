@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random Password Generator-Create strong password</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="head">
+                <h1 class="animate">Random Password Generator </h1>
+                <p>Create a strong password using this tool.</p>
+            </div>
+        </header>
+        <div class="box">
+            <div class="password-container">
+                <input type="text" readonly id="password" class="password">
+                <button class="copy-btn" title="Copy Password">&#x270D;&#xFE0F;</button>
+            </div>
+            <div class="options">
+                <label>
+                    <input type="checkbox" id="uppercase" class="input">
+                    <span>Uppercase Alphabet</span>
+                </label>
+                <label>
+                    <input type="checkbox" id="lowercase" class="input">
+                    <span>Lowercase Alphabet</span>
+                </label>
+                <label>
+                    <input type="checkbox" id="special" class="input">
+                    <span>Special Characters</span>
+                </label>
+                <label>
+                    <input type="checkbox" id="numbers" class="input">
+                    <span>Numbers</span>
+                </label>
+                <button class="generate-btn" id="generate">Generate Password</button>
+            </div>
+            <div class="description">
+                This tool generates a random password based on the selected character types. The password is generated using a cryptographically secure pseudorandom number generator. This password was very strong and contain 12 characters that are unguessable and you will copy this password using copy button present next to the password input field.
+            </div>
+            <br><br>
+            <div class="additional-info">
+                <h2>Why use a password generator?</h2>
+                <p id="importance">"In today's digital age, passwords are the first line of defense against cyber threats and unauthorized access to our sensitive information. However, with the increasing number of online accounts and passwords to remember, it's becoming increasingly challenging to create and manage strong, unique passwords. This is where a password generator tool comes into play. By generating complex and random passwords, this tool helps to significantly reduce the risk of password-related security breaches. With a password generator, you can create passwords that are virtually unguessable, ensuring that your online identity and sensitive information remain protected. Moreover, using a password generator tool encourages good password hygiene practices, such as using a different password for each account and avoiding easily guessable information like names, birthdays, and common words."</p>
+                <img src="password-security.jpg" alt="Password Security" class="responsive-image">
+                <p>Remember to always use a password manager to securely store your generated passwords.</p>
+      <h2 >Benefits of Using Our Random Password Generator</h2>
+      
+            <ul >
+              <li class="benefits"><strong>Improved Security</strong>: Generate strong, unique passwords to protect your online accounts from hacking and unauthorized access.</li>
+              <li><strong>Convenience</strong>: Easily create and manage multiple passwords without having to remember them all.</li>
+              <li><strong>Time-Saving</strong>: Quickly generate passwords with just a few clicks, saving you time and effort.</li>
+              <li><strong>Peace of Mind</strong>: Enjoy the confidence that comes with knowing your online accounts are secure and protected by strong, unique passwords.</li>
+            </ul>                
+           </div>
+        </div>
+    </div>
+</body>
+<script src="main.js">
+</script>
+</html>
